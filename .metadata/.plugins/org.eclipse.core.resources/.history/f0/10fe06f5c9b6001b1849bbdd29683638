@@ -1,0 +1,11 @@
+package com.fac;
+
+import com.Android;
+import com.OS;
+
+public class FactoryMain {
+	public static void main(String[] args) {
+		OS o=new Android();
+		o.specs();
+	}
+}

@@ -1,0 +1,13 @@
+package lambda;
+
+public class Finals {
+	final int i;
+	public Finals(int i) {
+		// TODO Auto-generated constructor stub
+	}
+	public static void main(String[] args) {
+		Finals f=new Finals(10);
+		System.out.println(f.i);
+	}
+
+}

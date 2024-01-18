@@ -1,0 +1,22 @@
+package lambda;
+
+import java.util.Scanner;
+
+public class TwoTable {
+
+	public static void main(String[] args) {
+		int temp;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter First No");
+		int a=sc.nextInt();
+		
+		System.out.println("Enter Second No");
+		int b=sc.nextInt();
+		System.out.println("Before swapping:" +a+" "+b);
+		
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println("After swapping:" +a+" "+b);
+	}
+}

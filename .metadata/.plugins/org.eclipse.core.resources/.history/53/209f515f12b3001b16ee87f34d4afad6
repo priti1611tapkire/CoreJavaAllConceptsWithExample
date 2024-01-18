@@ -1,0 +1,11 @@
+package lambda;
+
+public class AA {
+final int i=10;
+AA(int i){}
+
+public static void main(String[] args) {
+	AA a=new AA(100);
+	System.out.println(a.i);
+}
+}
